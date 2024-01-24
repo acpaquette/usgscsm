@@ -625,6 +625,7 @@ else()
 
   # Nlohmann JSON
   set(JSON_BuildTests OFF CACHE INTERNAL "")
+  set(JSON_Install Off)
   add_subdirectory(json)
 
   # ALE
